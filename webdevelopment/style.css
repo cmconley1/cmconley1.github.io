@@ -1,1 +1,15 @@
 h1{color:#4D1170;}
+p.intro::first-letter {
+    font-size: 150%;
+    font-weight: bold;
+    color: rgb(91, 25, 145);
+  }
+p + p {
+    text-indent: 1%;
+  }
+.center {
+    background-color: lightgrey;
+    width: 750px;
+    padding: 50px;
+    margin: auto;
+  }

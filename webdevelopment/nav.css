@@ -1,20 +1,28 @@
 ul li {
     list-style-type: none;
-    margin-bottom: 10px;
-    padding: 10px 10px 10px 10px;
-    border: 5px solid black;
+    margin-bottom: 0px;
+    padding: 0px;
     display: block;
-    width: 50px;
+    width: 100px;
     
     }
 
-    nav ul>li ul {
+ul>li a {
         top: 0;
         left: 100%;
         list-style-type: none;
-        margin-bottom: 10px;
-        padding: 10px 10px 10px 10px;
-        border: 5px solid black;
+        margin-bottom: 0px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: black;
+        border: none;
+        background-color: rgba(134, 121, 121, 0.747);
         display: block;
-        width: 50px;
+        width: 75 px;
+     }
+ul>li a:hover {
+    color: white;
     }
+
+
+      
