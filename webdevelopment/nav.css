@@ -1,4 +1,6 @@
 ul li {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     margin-bottom: 0px;
     padding: 0px;
@@ -23,6 +25,5 @@ ul>li a {
 ul>li a:hover {
     color: white;
     }
-
 
       
