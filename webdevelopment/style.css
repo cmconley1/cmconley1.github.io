@@ -1,4 +1,16 @@
-h1{color:#4D1170;}
+h1{
+  color:#4D1170;
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  background-color: rgb(199, 202, 206);
+  margin-bottom: 0%;
+  padding: 50px;
+  
+}
+
+
 #div {
   @media screen and (min-width: 480px) {
   float: left}
@@ -15,7 +27,7 @@ h1{color:#4D1170;}
   }
 
 
-#footer{position: absolute;
+#footer{position: static;
   bottom: 0;
   width: 100%;
     text-align: center;}
