@@ -1,29 +1,66 @@
-ul li {
-    display: flex;
-    flex-direction: column;
+
+
+/*set the active page class to any <li> that has the class*/
+.active a:link {
+    background-color: rgb(91, 25, 145);
+}
+
+/*format and position the main navigation menu*/
+nav {
+    top: 80px;
+}
+nav ul {
     list-style-type: none;
-    margin-bottom: 0px;
-    padding: 0px;
-    display: block;
-    width: 100px;
-    
-    }
-
-ul>li a {
-        top: 0;
-        left: 100%;
-        list-style-type: none;
-        margin-bottom: 0px;
-        padding: 10px 20px;
-        text-decoration: none;
-        color: black;
-        border: none;
-        background-color: rgba(134, 121, 121, 0.747);
-        display: block;
-        width: 75px;
-     }
-ul>li a:hover {
+    margin: 0;
+    padding: 0;
+}
+nav>ul li {
+    width: 150px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
     color: white;
-    }
+    
+}
+nav ul li {
+    margin-bottom: 2px;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    border: none;
+    padding: 15px 15px 15px 15px;
+    color: white;
+        
+        }
 
+
+/*format all navigation <a> elements*/
+nav a:link{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+nav a:hover, nav a:focus {
+    background-color: rgb(148, 146, 136);
+    color: black;
+}
+nav a:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+/*position sub-menu or drop-down*/
+nav ul>li ul {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    display: none;
+}
+
+/*special hover to display the drop-down*/
+nav>ul>li:hover>ul{
+    display: block;
+    color: rgb(19, 18, 18);
+}
       
