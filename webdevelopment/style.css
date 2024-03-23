@@ -4,12 +4,14 @@ h1{
   text-align: center;
   margin-bottom: 0%;
   
+  
 }
 .flex-container {
   display: flex;
   background-color: rgb(199, 202, 206);
-  margin-bottom: 0%;
+  margin-bottom: 0px;
   padding: 30px;
+
     
 }
 @media only screen and (max-width: 640px) {
@@ -19,6 +21,21 @@ h1{
   display: block;
   width: 100%;
   }
+  }
+
+@media only screen and (min-width: 641px) {
+h1 {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.5em;
+}
+
   }
 .div {
   display: grid;
@@ -32,7 +49,9 @@ h1{
   margin: 15px;
   text-align: center;
   }
-.link-container{@media screen and (min-width: 641px) {display: flex;}}
+
+@media screen and (min-width: 641px){
+.link-container{display: flex;}}
 
 
 .footer{
@@ -40,6 +59,7 @@ h1{
   bottom: 0;
   width: 100%;
   text-align: center;
+  font-size: .75em;
 }
 
 p.intro::first-letter {
@@ -52,7 +72,8 @@ p + p {
   }
 .center {
     background-color: lightgrey;
-    width: 750px;
+    width: 75%;
     padding: 50px;
     margin: auto;
-  }
+   }
+

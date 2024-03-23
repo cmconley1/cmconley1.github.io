@@ -11,11 +11,13 @@
 /*format and position the main navigation menu*/
 nav {
     top: 80px;
+    
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
 nav>ul li {
     width: 150px;
@@ -23,6 +25,7 @@ nav>ul li {
     text-align: center;
     font-weight: bold;
     color: white;
+    float: inline-start;
     
 }
 nav ul li {
@@ -34,6 +37,7 @@ nav a {
     border: none;
     padding: 15px 15px 15px 15px;
     color: white;
+       
         
         }
 
@@ -56,8 +60,7 @@ nav a:active{
 /*position sub-menu or drop-down*/
 nav ul>li ul {
     position: absolute;
-    top: 0;
-    left: 100%;
+    top: 100%;
     display: none;
 }
 
@@ -104,6 +107,7 @@ nav>ul>li:hover>ul{
         text-align: left;
         font-weight: bold;
         color: white;
+        float: none;
         
     }
     nav a {
