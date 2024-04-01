@@ -25,7 +25,24 @@ Tested: 03/23/2024
 <header>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="nav.css">
-  </header>
+
+  <style>
+  
+    .column {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: auto;
+       grid-gap: 15px;
+      }
+   
+    @media screen and (max-width: 640px) {
+       .column {
+         grid-template-columns: 1fr;
+       }
+     }
+   </style>
+
+</header>
 <H1>Chelsea Conley</H1>
 <nav class="flex-container">
   <label id="hamburger">&#9776;</label>
@@ -47,10 +64,17 @@ Tested: 03/23/2024
 
 <main>
 <h3>Welcome</h3>
-<p>
-Hello, I’m Chelsea Conley and this website is all about my education and work experience. The purpose of this website is to showcase the versatility of my background and why I would be an asset to any team. 
-My goal is for the website to give a clear picture of how I can be an asset to an employer in a wide range of positions. I will achieve this through two objectives: 1) to list at least 3 previous work positions that incorporate a description that focuses on the use of at least two of my degrees and 2) to detail in one paragraph how my degrees work together to make me a versatile employee.
-</p>
+<div class="column">
+  <div>
+  <p>Hello, I’m Chelsea Conley and this website is all about my education and work experience. The purpose of this website is to showcase the versatility of my background and why I would be an asset to any team. 
+  My goal is for the website to give a clear picture of how I can be an asset to an employer in a wide range of positions. I will achieve this through two objectives: 1) to list at least 3 previous work positions that incorporate a description that focuses on the use of at least two of my degrees and 2) to detail in one paragraph how my degrees work together to make me a versatile employee.
+  </p>
+  </div>
+  <div>
+  <img src="../webcontent/chelsea-conley-web.png" alt="Picture of Chelsea Conley"
+  </div>
+</div>
+
 </main>
     <footer class="footer">
         <p>Author: Chelsea Conley</p>
