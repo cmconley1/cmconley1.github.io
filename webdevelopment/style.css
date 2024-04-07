@@ -2,9 +2,27 @@
   font-family: Josefin;
   src: url("../webcontent/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf");
 }
-title {
-  font-family: Josefin;
-  font-size: larger;
+blockquote {font-family: Josefin, serif;
+    font-size: larger;
+}
+@media print {
+  
+  h1{color: #000 !important;
+   background-color: transparent !important;}
+  .div{display: none !important;}
+  .flex-container{display: none !important;}
+  body{
+    font-family: Georgia, serif;
+    font-size: 14pt;
+    line-height: 20pt;
+    background: none;
+    color: #000;
+  }
+  @page {
+    margin: 1in;
+    color: #000;
+    background: transparent;
+  }
 }
 h1{
   color:#4D1170;
