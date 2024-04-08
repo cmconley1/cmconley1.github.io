@@ -121,3 +121,10 @@ p + p {
     margin: auto;
    }
 
+.icon:hover{scale: 2.0;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
