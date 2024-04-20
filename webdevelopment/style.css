@@ -139,6 +139,21 @@ p + p {
 }
 
 video {
-  width: 75%    !important;
+  width: 45%    !important;
   height: auto   !important;
 }
+
+table, th, td {
+  border:2px solid black;
+}
+
+@media screen and (max-width: 640px) {
+  .table-response {
+      overflow-x: auto;
+      width: 320px;
+  }
+}
+
+thead, tfoot{background-color: #a369c5;}
+tbody tr:nth-child(odd){background-color: lightgray}
+tbody tr:nth-child(even){background-color: white;}
