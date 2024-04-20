@@ -172,7 +172,7 @@ input[type=text], [type=email], select, textarea {
 
 
 /* Style the button */
-input[type=button] {
+input[type=submit], [type=reset] {
   background-color: #a369c5;
   color: white;
   padding: 12px 20px;
