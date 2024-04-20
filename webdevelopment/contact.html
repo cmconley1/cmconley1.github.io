@@ -3,9 +3,9 @@
 <html lang="en-US">
 <!--
 
-Title: Home
+Title: Contact
 
-Use: Index for 7355
+Use: Contact Page for 7355
 
 Author: Chelsea Conley
 
@@ -13,7 +13,7 @@ School/Term: Spring 2024
 
 Developed: Chelsea Conley
 
-Tested: 03/23/2024
+Tested: 04/20/2024
 
 -->
 
@@ -50,7 +50,7 @@ Tested: 03/23/2024
 <nav class="flex-container">
   <label id="hamburger">&#9776;</label>
     <ul>
-    <li class="active"><a href="index.html">Home</a></li>
+    <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
     <li>
       <a href="project.html">Work History</a>
@@ -61,23 +61,34 @@ Tested: 03/23/2024
       </ul>
     </li>
     <li><a href="reflection.html">Reflection</a></li>
-    <li><a href="contact.html">Contact</a></li>  
+    <li class="active"><a href="contact.html">Contact</a></li>  
   </ul>
 </nav>
 
 <main>
 
-<h3>Welcome</h3>
-<div class="column">
-  <div>
-  <p>Hello, I’m Chelsea Conley and this website is all about my education and work experience. The purpose of this website is to showcase the versatility of my background and why I would be an asset to any team. 
-  My goal is for the website to give a clear picture of how I can be an asset to an employer in a wide range of positions. I will achieve this through two objectives: 1) to list at least 3 previous work positions that incorporate a description that focuses on the use of at least two of my degrees and 2) to detail in one paragraph how my degrees work together to make me a versatile employee.
-  </p>
+<h3>Contact Me</h3>
+
+<div class="cform">
+    <form action="mailto:cmct3c@missouri.edu" subject= "Portfolio/Professional Website Contact" method="post" enctype="text/plain">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+  
+      <label for="email">Email</label>
+      <input type="email" id="emailaddress" name="email" placeholder="Your email address goes here.." required>
+  
+      <label for="Message">Message</label>
+      <textarea id="message" name="message" placeholder="Ask questions or reach out about a job offer.." style="height:400px" required></textarea>
+  
+      <input type="button" value="Submit">
+      <input type="button" value="Reset">
+  
+    </form>
   </div>
-  <div class="homeimg">
-  <img src="../webcontent/chelsea-conley-web.png" alt="Picture of Chelsea Conley">
-  </div>
-</div>
 
 </main>
     <footer class="footer">  
