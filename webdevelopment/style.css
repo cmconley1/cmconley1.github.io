@@ -34,6 +34,10 @@ h1{
   
   
 }
+h3{
+  color:#4D1170;}
+
+
 .flex-container {
   display: flex;
   background-color: rgb(199, 202, 206);
@@ -153,6 +157,11 @@ table, th, td {
       width: 320px;
   }
 }
+
+.table-response {font-size: 20pt;}
+
+.education {font-size: 1.8em;}
+
 
 thead, tfoot{background-color: #a369c5;}
 tbody tr:nth-child(odd){background-color: lightgray}
