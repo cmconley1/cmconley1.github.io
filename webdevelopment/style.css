@@ -68,6 +68,10 @@ p {
   font-size: 1.5em;
 }
 
+.table-response {font-size: 1.5em;}
+
+.education {font-size: 1.7em;}
+
   }
 .div {
   display: grid;
@@ -158,9 +162,6 @@ table, th, td {
   }
 }
 
-.table-response {font-size: 20pt;}
-
-.education {font-size: 1.8em;}
 
 
 thead, tfoot{background-color: #a369c5;}
