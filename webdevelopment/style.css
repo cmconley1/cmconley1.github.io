@@ -3,7 +3,9 @@
   src: url("../webcontent/Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf");
 }
 blockquote {font-family: Josefin, serif;
-    font-size: larger;
+    font-size: 2.5em;
+    text-align: center;
+    color:#4D1170;
 }
 @media print {
   

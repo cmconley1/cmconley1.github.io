@@ -25,6 +25,24 @@ Tested: 04/27/2024
   <link rel="stylesheet" href="nav.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" type="image/x-icon" href="../webcontent/ccfavicon.ico">
+
+  <style>
+  
+    .column {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: auto;
+       grid-gap: 15px;
+      }
+   
+    @media screen and (max-width: 640px) {
+       .column {
+         grid-template-columns: 1fr;
+       }
+     }
+   </style>
+
+
 </head>
 
 <body>
@@ -47,13 +65,16 @@ Tested: 04/27/2024
   </nav>
   <main>
     <h2>About Me</h2>
+    <div class="column">
+      <div><blockquote>
+        <b>"Nothing is impossible. The word itself says <em>'I'm possible!'</em>"</b>
+        <em>Audrey Hepburn</em>
+      </blockquote></div>
+      
+      <div> <img class="aboutimg" src="../webcontent/chelsea-conley-about.png" alt="Picture of Chelsea Conley"> </div>
 
-    <blockquote>
-      <b>"Nothing is impossible. The word itself says <em>'I'm possible!'</em>"</b>
-      <em>Audrey Hepburn</em>
-    </blockquote>
+    </div>
     
-    <div> <img class="aboutimg" src="../webcontent/chelsea-conley-about.png" alt="Picture of Chelsea Conley"> </div>
     
     <p>Hello! My name is Chelsea Conley. I am pursuing a Master’s Degree in Library and Information Science (MLIS) at
       the University of Missouri (MU). I will graduate with my MLIS in May of 2024. I selected MU based on the
@@ -126,6 +147,8 @@ Tested: 04/27/2024
       <p>Last Updated 04/27/2024</p>
       <p>© 2024 Chelsea Conley</p>
     </div>
+    <a href='http://www.freevisitorcounters.com'>Freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=affbbde542756790909f3eefd2d99be5885b6eb5'></script>
+    <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1180099/t/11"></script>
   </footer>
 
 </body>
